@@ -1,4 +1,4 @@
-{% set version = "0.9.4.post1" %}
+{% set version = "0.9.5" %}
 {% set name = "sanic-plugins-framework" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Sanic-Plugins-Framework-{{ version }}.tar.gz
-  sha256: eea5b874c15255467c21acfb2e8b16b0e6bff5d11dffed698c63b2e759f3ec50
+  sha256: 0e9fad57f223818cbc286419be2a9ae7b3e89cf0fd50f818f63e33365325acd8
 
 build:
   number: 0
